@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+:root {
+  /* Regular Morandi Colors */
+  --color-brand-primary: #A5A58D;
+  --color-brand-secondary: #9CA8B3;
+  --color-success: #A3B19B;
+  --color-warning: #C2A88D;
+  --color-danger: #B59A9A;
+  --color-bg-page: #F9F8F6;
+
+  /* Senior Accessibility Colors */
+  --color-brand-primary-senior: #5C5C4A;
+  --color-brand-secondary-senior: #4A5A6A;
+  --color-success-senior: #2E5C31;
+  --color-warning-senior: #8B5A2B;
+  --color-danger-senior: #8B2525;
+  --color-bg-senior-page: #F9F8F6;
+}
+
+@layer base {
+  body {
+    background-color: #F9F8F6;
+    color: #2D312E;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif;
+  }
+}
+
+/* Morandi Regular Tokens */
+.bg-morandi-primary { background-color: #A5A58D; }
+.text-morandi-primary { color: #A5A58D; }
+.border-morandi-primary { border-color: #A5A58D; }
+
+.bg-morandi-secondary { background-color: #9CA8B3; }
+.text-morandi-secondary { color: #9CA8B3; }
+.border-morandi-secondary { border-color: #9CA8B3; }
+
+.bg-morandi-success { background-color: #A3B19B; }
+.text-morandi-success { color: #A3B19B; }
+.border-morandi-success { border-color: #A3B19B; }
+
+.bg-morandi-warning { background-color: #C2A88D; }
+.text-morandi-warning { color: #C2A88D; }
+.border-morandi-warning { border-color: #C2A88D; }
+
+.bg-morandi-danger { background-color: #B59A9A; }
+.text-morandi-danger { color: #B59A9A; }
+.border-morandi-danger { border-color: #B59A9A; }
+
+/* Senior Dark Morandi Tokens */
+.bg-senior-primary { background-color: #5C5C4A; }
+.text-senior-primary { color: #5C5C4A; }
+.border-senior-primary { border-color: #5C5C4A; }
+
+.bg-senior-secondary { background-color: #4A5A6A; }
+.text-senior-secondary { color: #4A5A6A; }
+.border-senior-secondary { border-color: #4A5A6A; }
+
+.bg-senior-success { background-color: #2E5C31; }
+.text-senior-success { color: #2E5C31; }
+.border-senior-success { border-color: #2E5C31; }
+
+.bg-senior-warning { background-color: #8B5A2B; }
+.text-senior-warning { color: #8B5A2B; }
+.border-senior-warning { border-color: #8B5A2B; }
+
+.bg-senior-danger { background-color: #8B2525; }
+.text-senior-danger { color: #8B2525; }
+.border-senior-danger { border-color: #8B2525; }
+
+.bg-accessibility-page { background-color: #F9F8F6; }
+
+/* Typography & Spacing Utility Classes for Senior Mode */
+.senior-card-padding {
+  padding: 24px;
+}
+.senior-text-base {
+  font-size: 24px;
+  line-height: 1.5;
+}
+

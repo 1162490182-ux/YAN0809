@@ -1,0 +1,6 @@
+{
+  "name": "蒲公英菜场",
+  "description": "杭州大马弄现代化社区微空间共享与智慧导览App，集成共享折叠板凳分时租赁、长辈无障碍模式、AI语音交互、时空双态地图与数字驾驶舱",
+  "requestFramePermissions": ["microphone", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
